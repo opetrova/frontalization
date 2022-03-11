@@ -6,6 +6,8 @@ This package contains a Jupyter notebook which you can download and run on your 
 
 ```
 from huggingface_hub import hf_hub_url, hf_hub_download
+import requests
+import torch
 
 path_to_model = hf_hub_download(repo_id="opetrova/face-frontalization", filename="generator_v0.pt")
 
