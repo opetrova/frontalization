@@ -4,7 +4,7 @@ The [Hugging Face Hub](https://huggingface.co/docs/hub/main) hosts Git-based rep
 
 # Demo the model locally (a Jupyter notebook is all you need)
 
-This package contains a Jupyter notebook which you can download and run on your machine for a local demo of the Face Frontalization model. The interactive demo uses a [Gradio](https://gradio.app/) interface that you can drop your input image into, and click Submit (or Soumettre, for the french speakers) to get the model's output:
+This package contains [a Jupyter notebook](https://github.com/opetrova/frontalization/blob/master/huggingface-integration/local_demo.ipynb) which you can download and run on your machine for a local demo of the Face Frontalization model. The interactive demo uses a [Gradio](https://gradio.app/) interface that you can drop your input image into, and click Submit (or Soumettre, for the french speakers) to get the model's output:
 
 ![demo](gradio_demo.png)
 
