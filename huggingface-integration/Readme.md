@@ -2,7 +2,12 @@
 
 The [Hugging Face Hub](https://huggingface.co/docs/hub/main) hosts Git-based repositories for machine learning models, datasets, and spaces (ML demo apps).
 
-This package contains a Jupyter notebook which you can download and run on your machine for a local demo of the Face Frontalization model. The following code downloads (and loads!) the trained PyTorch generative model and the *network* module that are needed at inference time, from the [Hugging Face Hub model repo](https://huggingface.co/opetrova/face-frontalization):
+This package contains a Jupyter notebook which you can download and run on your machine for a local demo of the Face Frontalization model. The interactive demo uses a [Gradio](https://gradio.app/) interface that you can drop your input image into, and click Submit (or Soumettre, for the french speakers) to get the model's output:
+
+![demo](gradio_demo.png)
+
+
+The following code downloads (and loads!) the trained PyTorch generative model and the *network* module that are needed at inference time, from the [Hugging Face Hub model repo](https://huggingface.co/opetrova/face-frontalization):
 
 ```
 from huggingface_hub import hf_hub_url, hf_hub_download
