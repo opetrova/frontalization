@@ -2,6 +2,10 @@
 
 The [Hugging Face Hub](https://huggingface.co/docs/hub/main) hosts Git-based repositories for machine learning models, datasets, and spaces (ML demo apps).
 
+# Run the demo on the Hugging Face Hub Spaces
+
+The easiest way to demo the Face Frontalization model is to visit its [Space on the Hugging Face Hub](https://huggingface.co/spaces/opetrova/face-frontalization). Please keep in mind the model's [limitations and known biases](https://huggingface.co/opetrova/face-frontalization#limitations-and-bias) when testing the demo ;)
+
 # Demo the model locally (a Jupyter notebook is all you need)
 
 This package contains [a Jupyter notebook](https://github.com/opetrova/frontalization/blob/master/huggingface-integration/local_demo.ipynb) which you can download and run on your machine for a local demo of the Face Frontalization model. All the necessary model files will be automatically downloaded from the [Hugging Face Hub model repo](https://huggingface.co/opetrova/face-frontalization). The interactive demo uses a [Gradio](https://gradio.app/) interface that you can drop your input image into, and click Submit (or Soumettre, for the french speakers) to get the model's output:
